@@ -1,0 +1,20 @@
+Question 1:
+Answer: 
+--imageid string
+
+Question 2:
+Answer: 
+docker run -it python:3.9 bash
+pip list
+	
+Question 3:
+Answer:
+
+docker run -it \
+  -e POSTGRES_USER="root" \
+  -e POSTGRES_PASSWORD="root" \
+  -e POSTGRES_DB="ny_taxi" \
+  -v C:/Users/Hoe/Desktop/Learning/DataTalksClub_DE_ZoomCamp_2023/ny_taxi_postgres_data:/var/lib/postgresql/data \
+  -p 5431:5432 \
+  --name postgres \
+  postgres:13
