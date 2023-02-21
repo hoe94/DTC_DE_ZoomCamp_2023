@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+    - name: staging
+      database: wide-empire-375712
+      schema: ny_taxi
+
+      tables:
+        - name: green_data
+        - name: yellow_data
+        - name: fhv_data
+
+
